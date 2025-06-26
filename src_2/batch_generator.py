@@ -71,7 +71,7 @@ def write_to_csv(file_path: str, rows: int) -> None:
     """
     # Create a Faker instance with Romanian data.
     fake = create_data("es_MX")
-    
+
     # Define the CSV headers.
     headers = [
         "person_name", "user_name", "email", "personal_number", "birth_date", "address",
